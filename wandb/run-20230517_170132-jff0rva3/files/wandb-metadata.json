@@ -1,0 +1,76 @@
+{
+    "os": "Linux-5.15.0-71-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-05-17T11:31:34.239633",
+    "startedAt": "2023-05-17T11:31:32.923475",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Arunesh28/CS6910-A3.git",
+        "commit": "7665970cd204eae34f5c89850f7677e98016b4af"
+    },
+    "email": "arunesh2810@gmail.com",
+    "root": "/home/arunesh/Documents/CS6910/A3/CS6910-A3",
+    "host": "arunesh-HP-ENVY-Laptop-13-ba0xxx",
+    "username": "arunesh",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1740.6468750000001,
+        "min": 400.0,
+        "max": 4900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2000.016,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2000.001,
+            "min": 400.0,
+            "max": 4900.0
+        },
+        {
+            "current": 2300.0,
+            "min": 400.0,
+            "max": 4900.0
+        }
+    ],
+    "disk": {
+        "total": 153.17166137695312,
+        "used": 125.43920135498047
+    },
+    "memory": {
+        "total": 15.403095245361328
+    }
+}

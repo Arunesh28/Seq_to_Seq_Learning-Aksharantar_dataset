@@ -1,0 +1,36 @@
+2023-05-17 17:13:50,272 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Configure stats pid to 24835
+2023-05-17 17:13:50,272 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Loading settings from /home/arunesh/.config/wandb/settings
+2023-05-17 17:13:50,272 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Loading settings from /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/settings
+2023-05-17 17:13:50,272 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910-Assignment-3', 'entity': 'cs20b009', 'root_dir': '/home/arunesh/Documents/CS6910/A3/CS6910-A3', 'sweep_id': 'pgc7c9co', 'run_id': 'msj4yqd7', 'sweep_param_path': '/home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/sweep-pgc7c9co/config-msj4yqd7.yaml'}
+2023-05-17 17:13:50,273 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-17 17:13:50,273 INFO    Thread-22 :24835 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-17 17:13:50,273 INFO    Thread-22 :24835 [wandb_init.py:_log_setup():506] Logging user logs to /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230517_171350-msj4yqd7/logs/debug.log
+2023-05-17 17:13:50,273 INFO    Thread-22 :24835 [wandb_init.py:_log_setup():507] Logging internal logs to /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230517_171350-msj4yqd7/logs/debug-internal.log
+2023-05-17 17:13:50,274 INFO    Thread-22 :24835 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f56d1bbb850>
+2023-05-17 17:13:50,274 INFO    Thread-22 :24835 [wandb_init.py:init():546] calling init triggers
+2023-05-17 17:13:50,275 INFO    Thread-22 :24835 [wandb_init.py:init():552] wandb.init called with sweep_config: {'bidirectional': False, 'cell_type': 'LSTM', 'dropout': 0.2, 'embedding_size': 128, 'epochs': 10, 'hidden_layer_size': 256, 'learning_rate': 0.005, 'num_layers': 3}
+config: {'embedding_size': 256, 'hidden_layer_size': 256, 'num_layers': 2, 'cell_type': 'GRU', 'dropout_prob': 0.1, 'learning_rate': 0.001, 'bidirectional': False, 'epochs': 10}
+2023-05-17 17:13:50,275 INFO    Thread-22 :24835 [wandb_init.py:init():602] starting backend
+2023-05-17 17:13:50,275 INFO    Thread-22 :24835 [wandb_init.py:init():606] setting up manager
+2023-05-17 17:13:50,293 INFO    Thread-22 :24835 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-05-17 17:13:50,305 INFO    Thread-22 :24835 [wandb_init.py:init():613] backend started and connected
+2023-05-17 17:13:50,324 INFO    Thread-22 :24835 [wandb_run.py:_config_callback():1251] config_cb None None {'bidirectional': False, 'cell_type': 'LSTM', 'dropout': 0.2, 'embedding_size': 128, 'epochs': 10, 'hidden_layer_size': 256, 'learning_rate': 0.005, 'num_layers': 3}
+2023-05-17 17:13:50,326 INFO    Thread-22 :24835 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-05-17 17:13:50,326 INFO    Thread-22 :24835 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-17 17:13:50,326 INFO    Thread-22 :24835 [wandb_init.py:init():701] updated telemetry
+2023-05-17 17:13:50,353 INFO    Thread-22 :24835 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-05-17 17:14:50,429 ERROR   Thread-22 :24835 [wandb_init.py:init():755] backend process timed out, exiting...
+encountered error: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-17 17:14:50,443 ERROR   Thread-22 :24835 [wandb_init.py:init():1171] error
+Traceback (most recent call last):
+  File "/home/arunesh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1144, in init
+  File "/home/arunesh/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 773, in init
+    config: Union[Dict, str, None] = None,
+wandb.errors.CommError: Error communicating with wandb process, exiting...
+For more info see: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-17 17:14:52,450 ERROR   MainThread:24835 [pyagent.py:_run_jobs_from_queue():226] Run msj4yqd7 errored: Exception('problem')
+2023-05-17 17:21:54,135 INFO    MainThread:24835 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=25
+2023-05-17 17:22:45,541 INFO    MainThread:24835 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=25
+2023-05-17 18:45:23,407 INFO    MainThread:24835 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=25
+2023-05-17 18:48:01,945 INFO    MainThread:24835 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=25
