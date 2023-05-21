@@ -1,0 +1,254 @@
+2023-05-21 20:53:39,769 INFO    MainThread:13189 [internal.py:wandb_internal():90] W&B internal server running at pid: 13189, started at: 2023-05-21 20:53:39.769134
+2023-05-21 20:53:39,771 INFO    WriterThread:13189 [datastore.py:open_for_write():75] open: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/run-18rs988g.wandb
+2023-05-21 20:53:39,774 DEBUG   SenderThread:13189 [sender.py:send():232] send: header
+2023-05-21 20:53:39,774 DEBUG   SenderThread:13189 [sender.py:send():232] send: run
+2023-05-21 20:53:40,423 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: check_version
+2023-05-21 20:53:40,435 INFO    SenderThread:13189 [dir_watcher.py:__init__():197] watching files in: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files
+2023-05-21 20:53:40,435 INFO    SenderThread:13189 [sender.py:_start_run_threads():811] run started: 18rs988g with start time 1684682618
+2023-05-21 20:53:40,435 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:40,436 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:40,436 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: check_version
+2023-05-21 20:53:40,578 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: run_start
+2023-05-21 20:53:41,437 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json
+2023-05-21 20:53:43,026 DEBUG   HandlerThread:13189 [meta.py:__init__():35] meta init
+2023-05-21 20:53:43,026 DEBUG   HandlerThread:13189 [meta.py:__init__():49] meta init done
+2023-05-21 20:53:43,026 DEBUG   HandlerThread:13189 [meta.py:probe():209] probe
+2023-05-21 20:53:43,074 DEBUG   HandlerThread:13189 [meta.py:_setup_git():199] setup git
+2023-05-21 20:53:43,127 DEBUG   HandlerThread:13189 [meta.py:_setup_git():206] setup git done
+2023-05-21 20:53:43,127 DEBUG   HandlerThread:13189 [meta.py:_save_pip():53] save pip
+2023-05-21 20:53:43,128 DEBUG   HandlerThread:13189 [meta.py:_save_pip():67] save pip done
+2023-05-21 20:53:43,128 DEBUG   HandlerThread:13189 [meta.py:probe():247] probe done
+2023-05-21 20:53:43,135 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:43,135 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2023-05-21 20:53:43,154 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: stop_status
+2023-05-21 20:53:43,154 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: stop_status
+2023-05-21 20:53:43,417 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:43,437 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/output.log
+2023-05-21 20:53:43,437 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/patra_heatmap_0_29accbaeeb2629fdc432.jpg
+2023-05-21 20:53:43,438 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-metadata.json
+2023-05-21 20:53:43,438 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/requirements.txt
+2023-05-21 20:53:43,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media
+2023-05-21 20:53:43,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images
+2023-05-21 20:53:43,502 DEBUG   SenderThread:13189 [sender.py:send():232] send: telemetry
+2023-05-21 20:53:43,502 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:43,502 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/patra_heatmap_0_29accbaeeb2629fdc432.jpg with policy now
+2023-05-21 20:53:43,503 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:43,503 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:43,504 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:43,528 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:43,529 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:43,530 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/arena_heatmap_1_c06b4f4d6620a4a338cc.jpg with policy now
+2023-05-21 20:53:43,530 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:43,531 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:43,532 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:43,686 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:43,687 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/pambisingna_heatmap_2_9dcd91f5674528b7228e.jpg with policy now
+2023-05-21 20:53:43,687 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:43,688 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:43,689 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:43,689 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:43,827 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:43,827 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/shingsu_heatmap_3_d542143c43827cf7bfa8.jpg with policy now
+2023-05-21 20:53:43,834 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:43,836 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:43,837 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:43,838 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:44,002 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:44,002 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/randhawa_heatmap_4_3ae98370e2323e25571c.jpg with policy now
+2023-05-21 20:53:44,003 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:44,004 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:44,004 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:44,005 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:44,143 INFO    Thread-11 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/25697q0p-wandb-metadata.json
+2023-05-21 20:53:44,209 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:44,209 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/barnstable_heatmap_5_22d73215e4ac5627262c.jpg with policy now
+2023-05-21 20:53:44,210 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:44,211 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:44,212 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:44,213 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:44,438 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json
+2023-05-21 20:53:44,438 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/pambisingna_heatmap_2_9dcd91f5674528b7228e.jpg
+2023-05-21 20:53:44,438 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/arena_heatmap_1_c06b4f4d6620a4a338cc.jpg
+2023-05-21 20:53:44,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/shingsu_heatmap_3_d542143c43827cf7bfa8.jpg
+2023-05-21 20:53:44,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/randhawa_heatmap_4_3ae98370e2323e25571c.jpg
+2023-05-21 20:53:44,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/barnstable_heatmap_5_22d73215e4ac5627262c.jpg
+2023-05-21 20:53:44,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images
+2023-05-21 20:53:44,448 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:44,450 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:44,450 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/mioi_heatmap_6_06b829b6e377a792a029.jpg with policy now
+2023-05-21 20:53:44,451 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:44,452 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:44,457 INFO    Thread-13 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/3t1wvbvv-media/images/arena_heatmap_1_c06b4f4d6620a4a338cc.jpg
+2023-05-21 20:53:44,461 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:44,493 INFO    Thread-12 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/29ws36q8-media/images/patra_heatmap_0_29accbaeeb2629fdc432.jpg
+2023-05-21 20:53:44,704 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:44,704 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/osmanabad_heatmap_7_e765db0552a63b2dec75.jpg with policy now
+2023-05-21 20:53:44,705 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:44,707 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:44,707 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:44,708 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:44,746 INFO    Thread-14 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/1b8hmh63-media/images/pambisingna_heatmap_2_9dcd91f5674528b7228e.jpg
+2023-05-21 20:53:44,784 INFO    Thread-15 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/2mwmgazg-media/images/shingsu_heatmap_3_d542143c43827cf7bfa8.jpg
+2023-05-21 20:53:44,985 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:44,985 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:44,986 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/gardner_heatmap_8_fc4ed65b450330681622.jpg with policy now
+2023-05-21 20:53:44,987 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:44,987 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:44,988 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:45,206 INFO    Thread-17 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/7x8nqxgz-media/images/barnstable_heatmap_5_22d73215e4ac5627262c.jpg
+2023-05-21 20:53:45,212 DEBUG   SenderThread:13189 [sender.py:send():232] send: files
+2023-05-21 20:53:45,213 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file media/images/duar_heatmap_9_f6173ac9656901ff6eb3.jpg with policy now
+2023-05-21 20:53:45,214 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: partial_history
+2023-05-21 20:53:45,216 DEBUG   SenderThread:13189 [sender.py:send():232] send: history
+2023-05-21 20:53:45,217 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:45,218 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:45,218 DEBUG   SenderThread:13189 [sender.py:send():232] send: telemetry
+2023-05-21 20:53:45,219 DEBUG   SenderThread:13189 [sender.py:send():232] send: telemetry
+2023-05-21 20:53:45,249 INFO    Thread-16 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/3hxqp8qc-media/images/randhawa_heatmap_4_3ae98370e2323e25571c.jpg
+2023-05-21 20:53:45,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json
+2023-05-21 20:53:45,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/gardner_heatmap_8_fc4ed65b450330681622.jpg
+2023-05-21 20:53:45,440 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/mioi_heatmap_6_06b829b6e377a792a029.jpg
+2023-05-21 20:53:45,440 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/duar_heatmap_9_f6173ac9656901ff6eb3.jpg
+2023-05-21 20:53:45,441 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_created():244] file/dir created: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/osmanabad_heatmap_7_e765db0552a63b2dec75.jpg
+2023-05-21 20:53:45,441 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images
+2023-05-21 20:53:45,586 INFO    Thread-18 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/3684jwo1-media/images/mioi_heatmap_6_06b829b6e377a792a029.jpg
+2023-05-21 20:53:45,703 INFO    Thread-19 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/3rn6grm9-media/images/osmanabad_heatmap_7_e765db0552a63b2dec75.jpg
+2023-05-21 20:53:46,144 INFO    Thread-20 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/y51utycz-media/images/gardner_heatmap_8_fc4ed65b450330681622.jpg
+2023-05-21 20:53:46,166 DEBUG   SenderThread:13189 [sender.py:send():232] send: exit
+2023-05-21 20:53:46,166 INFO    SenderThread:13189 [sender.py:send_exit():368] handling exit code: 0
+2023-05-21 20:53:46,166 INFO    SenderThread:13189 [sender.py:send_exit():370] handling runtime: 5
+2023-05-21 20:53:46,167 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:46,167 INFO    SenderThread:13189 [sender.py:send_exit():376] send defer
+2023-05-21 20:53:46,168 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,168 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 0
+2023-05-21 20:53:46,168 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:46,168 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,169 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 0
+2023-05-21 20:53:46,169 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 1
+2023-05-21 20:53:46,169 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:46,169 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,170 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 1
+2023-05-21 20:53:46,243 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,243 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 1
+2023-05-21 20:53:46,243 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 2
+2023-05-21 20:53:46,244 DEBUG   SenderThread:13189 [sender.py:send():232] send: stats
+2023-05-21 20:53:46,244 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,245 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 2
+2023-05-21 20:53:46,245 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,245 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 2
+2023-05-21 20:53:46,245 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 3
+2023-05-21 20:53:46,245 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,246 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 3
+2023-05-21 20:53:46,246 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,246 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 3
+2023-05-21 20:53:46,246 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 4
+2023-05-21 20:53:46,246 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,247 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 4
+2023-05-21 20:53:46,247 DEBUG   SenderThread:13189 [sender.py:send():232] send: summary
+2023-05-21 20:53:46,249 INFO    SenderThread:13189 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2023-05-21 20:53:46,249 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,249 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 4
+2023-05-21 20:53:46,249 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 5
+2023-05-21 20:53:46,250 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,250 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 5
+2023-05-21 20:53:46,250 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,251 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 5
+2023-05-21 20:53:46,274 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:46,439 INFO    Thread-7  :13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json
+2023-05-21 20:53:46,694 INFO    Thread-21 :13189 [upload_job.py:push():132] Uploaded file /tmp/tmplh6g5jokwandb/2llitle8-media/images/duar_heatmap_9_f6173ac9656901ff6eb3.jpg
+2023-05-21 20:53:46,700 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 6
+2023-05-21 20:53:46,701 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:46,702 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:46,702 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 6
+2023-05-21 20:53:46,702 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:46,702 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 6
+2023-05-21 20:53:46,702 INFO    SenderThread:13189 [dir_watcher.py:finish():312] shutting down directory watcher
+2023-05-21 20:53:46,803 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,441 INFO    SenderThread:13189 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/config.yaml
+2023-05-21 20:53:47,442 INFO    SenderThread:13189 [dir_watcher.py:finish():342] scan: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files
+2023-05-21 20:53:47,443 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json wandb-summary.json
+2023-05-21 20:53:47,443 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-metadata.json wandb-metadata.json
+2023-05-21 20:53:47,443 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/config.yaml config.yaml
+2023-05-21 20:53:47,450 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/output.log output.log
+2023-05-21 20:53:47,456 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/requirements.txt requirements.txt
+2023-05-21 20:53:47,465 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/barnstable_heatmap_5_22d73215e4ac5627262c.jpg media/images/barnstable_heatmap_5_22d73215e4ac5627262c.jpg
+2023-05-21 20:53:47,465 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/patra_heatmap_0_29accbaeeb2629fdc432.jpg media/images/patra_heatmap_0_29accbaeeb2629fdc432.jpg
+2023-05-21 20:53:47,466 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/mioi_heatmap_6_06b829b6e377a792a029.jpg media/images/mioi_heatmap_6_06b829b6e377a792a029.jpg
+2023-05-21 20:53:47,466 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/arena_heatmap_1_c06b4f4d6620a4a338cc.jpg media/images/arena_heatmap_1_c06b4f4d6620a4a338cc.jpg
+2023-05-21 20:53:47,466 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/shingsu_heatmap_3_d542143c43827cf7bfa8.jpg media/images/shingsu_heatmap_3_d542143c43827cf7bfa8.jpg
+2023-05-21 20:53:47,466 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/gardner_heatmap_8_fc4ed65b450330681622.jpg media/images/gardner_heatmap_8_fc4ed65b450330681622.jpg
+2023-05-21 20:53:47,466 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/duar_heatmap_9_f6173ac9656901ff6eb3.jpg media/images/duar_heatmap_9_f6173ac9656901ff6eb3.jpg
+2023-05-21 20:53:47,467 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/osmanabad_heatmap_7_e765db0552a63b2dec75.jpg media/images/osmanabad_heatmap_7_e765db0552a63b2dec75.jpg
+2023-05-21 20:53:47,467 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/randhawa_heatmap_4_3ae98370e2323e25571c.jpg media/images/randhawa_heatmap_4_3ae98370e2323e25571c.jpg
+2023-05-21 20:53:47,467 INFO    SenderThread:13189 [dir_watcher.py:finish():356] scan save: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/media/images/pambisingna_heatmap_2_9dcd91f5674528b7228e.jpg media/images/pambisingna_heatmap_2_9dcd91f5674528b7228e.jpg
+2023-05-21 20:53:47,467 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 7
+2023-05-21 20:53:47,468 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:47,469 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:47,469 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 7
+2023-05-21 20:53:47,469 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:47,469 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 7
+2023-05-21 20:53:47,469 INFO    SenderThread:13189 [file_pusher.py:finish():145] shutting down file pusher
+2023-05-21 20:53:47,572 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,572 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:47,675 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,675 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:47,778 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,778 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:47,880 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,881 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:47,985 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:47,986 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,089 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,090 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,192 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,193 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,296 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,297 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,401 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,401 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,503 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,503 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,605 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,606 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,613 INFO    Thread-23 :13189 [upload_job.py:push():132] Uploaded file /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/config.yaml
+2023-05-21 20:53:48,709 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,709 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,813 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,813 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:48,882 INFO    Thread-24 :13189 [upload_job.py:push():132] Uploaded file /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/requirements.txt
+2023-05-21 20:53:48,886 INFO    Thread-22 :13189 [upload_job.py:push():132] Uploaded file /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/files/wandb-summary.json
+2023-05-21 20:53:48,917 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:48,918 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:49,020 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:49,021 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:49,088 INFO    Thread-6  :13189 [sender.py:transition_state():389] send defer: 8
+2023-05-21 20:53:49,089 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:49,089 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 8
+2023-05-21 20:53:49,090 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:49,090 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 8
+2023-05-21 20:53:49,124 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:49,425 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 9
+2023-05-21 20:53:49,425 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:49,425 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:49,425 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 9
+2023-05-21 20:53:49,426 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:49,426 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 9
+2023-05-21 20:53:49,426 INFO    SenderThread:13189 [sender.py:transition_state():389] send defer: 10
+2023-05-21 20:53:49,426 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: defer
+2023-05-21 20:53:49,426 INFO    HandlerThread:13189 [handler.py:handle_request_defer():164] handle defer: 10
+2023-05-21 20:53:49,426 DEBUG   SenderThread:13189 [sender.py:send():232] send: final
+2023-05-21 20:53:49,427 DEBUG   SenderThread:13189 [sender.py:send():232] send: footer
+2023-05-21 20:53:49,427 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: defer
+2023-05-21 20:53:49,427 INFO    SenderThread:13189 [sender.py:send_request_defer():385] handle sender defer: 10
+2023-05-21 20:53:49,526 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: poll_exit
+2023-05-21 20:53:49,527 DEBUG   SenderThread:13189 [sender.py:send_request():246] send_request: poll_exit
+2023-05-21 20:53:49,527 INFO    SenderThread:13189 [file_pusher.py:join():150] waiting for file pusher
+2023-05-21 20:53:50,302 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: sampled_history
+2023-05-21 20:53:50,305 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: get_summary
+2023-05-21 20:53:50,307 DEBUG   HandlerThread:13189 [handler.py:handle_request():141] handle_request: shutdown
+2023-05-21 20:53:50,307 INFO    HandlerThread:13189 [handler.py:finish():806] shutting down handler
+2023-05-21 20:53:50,427 INFO    WriterThread:13189 [datastore.py:close():279] close: /home/arunesh/Documents/CS6910/A3/CS6910-A3/wandb/run-20230521_205338-18rs988g/run-18rs988g.wandb
+2023-05-21 20:53:51,200 INFO    SenderThread:13189 [sender.py:finish():1110] shutting down sender
+2023-05-21 20:53:51,200 INFO    SenderThread:13189 [file_pusher.py:finish():145] shutting down file pusher
+2023-05-21 20:53:51,201 INFO    SenderThread:13189 [file_pusher.py:join():150] waiting for file pusher
+2023-05-21 20:53:51,212 INFO    MainThread:13189 [internal.py:handle_exit():80] Internal process exited

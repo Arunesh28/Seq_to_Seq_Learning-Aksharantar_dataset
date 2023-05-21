@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.15.0-72-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-05-21T15:23:43.026785",
+    "startedAt": "2023-05-21T15:23:38.134263",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Arunesh28/CS6910-A3.git",
+        "commit": "5008f87807d63f45cd6853fab7c22d0ce73e51b1"
+    },
+    "email": "arunesh2810@gmail.com",
+    "root": "/home/arunesh/Documents/CS6910/A3/CS6910-A3",
+    "host": "arunesh-HP-ENVY-Laptop-13-ba0xxx",
+    "username": "arunesh",
+    "executable": "/bin/python3"
+}
